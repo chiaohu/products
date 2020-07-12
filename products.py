@@ -9,3 +9,6 @@ while True:
 	p.append(price)
 	products.append(p)  # products.append([name, price]) = 7-10行
 print(products)
+
+for p in products:
+	print(p)
